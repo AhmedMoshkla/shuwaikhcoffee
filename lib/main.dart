@@ -19,11 +19,7 @@ void main() async {
     ),
   );
 
-  ///
-  ///
-  /// take your money my friend before work, he will
-  ///
-  ///
+  
 }
 
 checkIfLoggedInUser() async {

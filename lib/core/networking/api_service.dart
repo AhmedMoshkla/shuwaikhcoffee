@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:retrofit/http.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:shuwaikh/core/networking/api_constants.dart';
 import 'package:shuwaikh/features/Products_page/data/models/products_page_request_body.dart';

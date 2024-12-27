@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/helpers/spacing.dart';
 import 'package:shuwaikh/features/localization/change_lang.dart';
 import 'package:shuwaikh/features/setting/logic/cubit/delete_account_cubit.dart';
 import 'package:shuwaikh/features/setting/ui/widgets/delete_acc_bloc_listner.dart';
 
-import '../../../core/helpers/setup_dialogs.dart';
 import '../../../core/routing/routes.dart';
 import '../../../core/theming/colors.dart';
 import '../../../core/theming/styles.dart';

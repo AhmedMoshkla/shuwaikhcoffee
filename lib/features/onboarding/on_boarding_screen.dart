@@ -3,7 +3,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shuwaikh/core/helpers/assets_path.dart';
-import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/features/localization/cubit/locale_cubit.dart';
 import '../../core/helpers/spacing.dart';
 import '../../core/routing/routes.dart';

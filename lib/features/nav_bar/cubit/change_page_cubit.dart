@@ -11,6 +11,6 @@ class ChangePageCubit extends Cubit<ChangePageState> {
 
   void getPage() {
     int? currentPage = globals.currentPage;
-    emit(ChangePageState(currentPage: currentPage!));
+    emit(ChangePageState(currentPage: currentPage));
   }
 }

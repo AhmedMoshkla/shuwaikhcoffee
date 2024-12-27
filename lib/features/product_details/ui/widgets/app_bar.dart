@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:shuwaikh/core/helpers/extensions.dart';
 
 import '../../../../core/helpers/is_arabic.dart';
 

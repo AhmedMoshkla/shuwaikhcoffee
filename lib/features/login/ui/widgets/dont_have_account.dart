@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/theming/styles.dart';
 
 import '../../../../core/routing/routes.dart';
