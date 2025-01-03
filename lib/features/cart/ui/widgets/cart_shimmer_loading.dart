@@ -20,7 +20,7 @@ class CartShimmerLoading extends StatelessWidget {
           Align(
             alignment: Alignment.centerRight,
             child: Shimmer.fromColors(
-              baseColor: ColorsgManger.shimmerGrey,
+              baseColor: ColorsManager.shimmerGrey,
               highlightColor: Colors.white,
               child: Container(
                 height: 25.h,
@@ -53,7 +53,7 @@ class CartShimmerLoading extends StatelessWidget {
                     Row(
                       children: [
                         Shimmer.fromColors(
-                          baseColor: ColorsgManger.shimmerGrey,
+                          baseColor: ColorsManager.shimmerGrey,
                           highlightColor: Colors.white,
                           child: Container(
                             width: 100.w,
@@ -69,7 +69,7 @@ class CartShimmerLoading extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Shimmer.fromColors(
-                              baseColor: ColorsgManger.shimmerGrey,
+                              baseColor: ColorsManager.shimmerGrey,
                               highlightColor: Colors.white,
                               child: Container(
                                 height: 20.h,
@@ -79,7 +79,7 @@ class CartShimmerLoading extends StatelessWidget {
                             ),
                             verticalSpace(10),
                             Shimmer.fromColors(
-                              baseColor: ColorsgManger.shimmerGrey,
+                              baseColor: ColorsManager.shimmerGrey,
                               highlightColor: Colors.white,
                               child: Container(
                                 height: 15.h,
@@ -89,7 +89,7 @@ class CartShimmerLoading extends StatelessWidget {
                             ),
                             verticalSpace(10),
                             Shimmer.fromColors(
-                              baseColor: ColorsgManger.shimmerGrey,
+                              baseColor: ColorsManager.shimmerGrey,
                               highlightColor: Colors.white,
                               child: Container(
                                 height: 10.h,

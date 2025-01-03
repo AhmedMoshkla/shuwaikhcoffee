@@ -23,11 +23,11 @@ class MainTextHome extends StatelessWidget {
             children: [
               TextSpan(
                 text: '$mainText1 \n',
-                style: AppTextStyles.font26White500Weight,
+                style: TextStyles.font26White500Weight,
               ),
               TextSpan(
                 text: mainText2,
-                style: AppTextStyles.font36White700Weight,
+                style: TextStyles.font36White700Weight,
               ),
             ],
           ),

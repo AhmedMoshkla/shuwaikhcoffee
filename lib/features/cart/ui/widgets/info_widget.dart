@@ -13,12 +13,12 @@ class InfoWidget extends StatelessWidget {
       children: [
         Text(
           title,
-          style: AppTextStyles.font14Black400Weight,
+          style: TextStyles.font14Black400Weight,
           overflow: TextOverflow.ellipsis,
         ),
         Text(
           subtitle,
-          style: AppTextStyles.font14Blue400Weight,
+          style: TextStyles.font14Blue400Weight,
         ),
       ],
     );

@@ -30,10 +30,10 @@ class _PayViaWidgetState extends State<PayViaWidget> {
       children: [
         Text(
           S.of(context).pay_via,
-          style: AppTextStyles.font16Black700Weight,
+          style: TextStyles.font16Black700Weight,
         ),
         RadioListTile(
-          activeColor: ColorsgManger.blue,
+          activeColor: ColorsManager.blue,
           title: Text(
             S.of(context).cash_on_delivery,
           ),
@@ -47,7 +47,7 @@ class _PayViaWidgetState extends State<PayViaWidget> {
           },
         ),
         RadioListTile(
-          activeColor: ColorsgManger.blue,
+          activeColor: ColorsManager.blue,
           title: const Text(
             'Knet',
           ),

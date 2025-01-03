@@ -20,7 +20,7 @@ class ProductNavBar extends StatelessWidget {
         height: 80.h,
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-          color: ColorsgManger.darkBlue,
+          color: ColorsManager.darkBlue,
         ),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -32,11 +32,11 @@ class ProductNavBar extends StatelessWidget {
                     children: [
                       TextSpan(
                         text: '${S.of(context).total}: ',
-                        style: AppTextStyles.font13White500Weight,
+                        style: TextStyles.font13White500Weight,
                       ),
                       TextSpan(
                         text: 'KD${state.total!.toStringAsFixed(2)}',
-                        style: AppTextStyles.font20White700Weight,
+                        style: TextStyles.font20White700Weight,
                       ),
                     ],
                   ),
@@ -53,12 +53,12 @@ class ProductNavBar extends StatelessWidget {
                 height: 40.h,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(8),
-                  color: ColorsgManger.lightBlue,
+                  color: ColorsManager.lightBlue,
                 ),
                 child: Center(
                   child: Text(
                     S.of(context).add_to_cart,
-                    style: AppTextStyles.font14Blue400Weight,
+                    style: TextStyles.font14Blue400Weight,
                   ),
                 ),
               ),

@@ -21,7 +21,7 @@ class _SelectAddonsState extends State<SelectAddons> {
       children: [
         Text(
           S.of(context).select_add_ons,
-          style: AppTextStyles.font24Black500Weight,
+          style: TextStyles.font24Black500Weight,
         ),
         ListView.builder(
           physics: const NeverScrollableScrollPhysics(),

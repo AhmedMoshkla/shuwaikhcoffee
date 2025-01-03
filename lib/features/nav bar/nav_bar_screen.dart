@@ -34,7 +34,7 @@ class _NavBarSrceenState extends State<NavBarSrceen> {
         child: CurvedNavigationBar(
           height: 60.h,
           color: ColorsManager.darkBlue,
-          buttonBackgroundColor: ColorsManager.mainBlue,
+          buttonBackgroundColor: ColorsManager.blue,
           backgroundColor: Colors.transparent,
           index: index,
           onTap: (index) => setState(() => this.index = index),

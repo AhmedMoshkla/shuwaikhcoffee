@@ -39,7 +39,7 @@ class _ProuductsSectionState extends State<ProuductsSection> {
             ),
             Text(
               changeCategoryState.name ?? '',
-              style: AppTextStyles.font20Black500Weight,
+              style: TextStyles.font20Black500Weight,
             ),
             verticalSpace(10),
             BlocBuilder<ProductsPageCubit, ProductsPageState>(

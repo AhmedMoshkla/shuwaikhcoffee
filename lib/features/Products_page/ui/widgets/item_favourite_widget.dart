@@ -33,7 +33,7 @@ class _ItemFavouriteWidgetState extends State<ItemFavouriteWidget> {
           },
           child: Icon(
             widget.isFavourite ? Icons.favorite : Icons.favorite_border,
-            color: ColorsgManger.blue,
+            color: ColorsManager.blue,
             size: 25,
           ),
         ),

@@ -12,13 +12,13 @@ class OfferShimmerLoading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Shimmer.fromColors(
-      baseColor: ColorsgManger.shimmerGrey,
+      baseColor: ColorsManager.shimmerGrey,
       highlightColor: Colors.white,
       child: Container(
         height: 195.h,
         width: 335.w,
         decoration: BoxDecoration(
-          color: ColorsgManger.lightBlue,
+          color: ColorsManager.lightBlue,
           borderRadius: BorderRadius.circular(10.r),
         ),
       ),

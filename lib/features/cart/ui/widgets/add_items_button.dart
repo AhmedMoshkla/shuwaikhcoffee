@@ -16,8 +16,8 @@ class AddMoreItemsButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomButton(
       text: S.of(context).add_more_items,
-      color: ColorsgManger.lightBlue,
-      textStyle: AppTextStyles.font20MainBlue700Weight,
+      color: ColorsManager.lightBlue,
+      textStyle: TextStyles.font20MainBlue700Weight,
       onTap: () => context.read<ChangePageCubit>().changePage(2),
     );
   }

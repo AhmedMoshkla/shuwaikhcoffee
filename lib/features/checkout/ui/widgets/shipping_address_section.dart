@@ -19,7 +19,7 @@ class ShippingAddressSection extends StatelessWidget {
       children: [
         Text(
           S.of(context).shipping_address,
-          style: AppTextStyles.font26Blue700Weight,
+          style: TextStyles.font26Blue700Weight,
         ),
         verticalSpace(15),
         AppTextFormField(

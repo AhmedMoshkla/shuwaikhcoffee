@@ -63,8 +63,8 @@ class _ProductImagesSliderState extends State<ProductImagesSlider> {
             activeIndex: activeIndex,
             count: widget.productDetails!.productImages!.length,
             effect: const SwapEffect(
-              dotColor: ColorsgManger.lightBlue,
-              activeDotColor: ColorsgManger.darkBlue,
+              dotColor: ColorsManager.lightBlue,
+              activeDotColor: ColorsManager.darkBlue,
             ),
           ),
         ],
@@ -109,8 +109,8 @@ class _ProductImagesSliderState extends State<ProductImagesSlider> {
             activeIndex: activeIndex,
             count: 1,
             effect: const SwapEffect(
-              dotColor: ColorsgManger.lightBlue,
-              activeDotColor: ColorsgManger.darkBlue,
+              dotColor: ColorsManager.lightBlue,
+              activeDotColor: ColorsManager.darkBlue,
             ),
           ),
         ],

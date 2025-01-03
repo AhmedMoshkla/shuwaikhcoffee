@@ -30,7 +30,7 @@ class AppScrollScaffold extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: double.infinity,
-      color: ColorsgManger.blue,
+      color: ColorsManager.blue,
       child: SafeArea(
         child: SingleChildScrollView(
           physics: const BouncingScrollPhysics(),
@@ -61,7 +61,7 @@ class AppScrollScaffold extends StatelessWidget {
                         ),
                         Text(
                           appBarTitle ?? '',
-                          style: AppTextStyles.font30White400Weight,
+                          style: TextStyles.font30White400Weight,
                         ),
                         const SizedBox.shrink(),
                         // InkWell(

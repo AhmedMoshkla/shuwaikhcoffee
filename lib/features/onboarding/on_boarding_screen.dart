@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shuwaikh/core/helpers/assets_path.dart';
+import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/features/localization/cubit/locale_cubit.dart';
 import '../../core/helpers/spacing.dart';
 import '../../core/routing/routes.dart';
@@ -31,7 +32,7 @@ class _OnBoradingScreenState extends State<OnBoradingScreen> {
               verticalSpace(40),
               Text(
                 'Select Your Language',
-                style: AppTextStyles.font20Black500Weight,
+                style: TextStyles.font20Black500Weight,
               ),
               verticalSpace(20),
               OnboradingButton(
@@ -71,14 +72,14 @@ class OnboradingButton extends StatelessWidget {
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
         minimumSize: Size(331.w, 50.h),
-        backgroundColor: ColorsgManger.blue,
+        backgroundColor: ColorsManager.blue,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(50),
         ),
       ),
       child: Text(
         text,
-        style: AppTextStyles.font26White500Weight,
+        style: TextStyles.font26White500Weight,
       ),
     );
   }

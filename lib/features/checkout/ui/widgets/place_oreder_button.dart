@@ -33,12 +33,12 @@ class _PlaceOrderButtonState extends State<PlaceOrderButton> {
                 children: [
                   Text(
                     S.of(context).want_save_for_future,
-                    style: AppTextStyles.font16Black500Weight,
+                    style: TextStyles.font16Black500Weight,
                   ),
                   verticalSpace(10),
                   Text(
                     S.of(context).can_edit_from_setting,
-                    style: const TextStyle(color: ColorsgManger.blue),
+                    style: const TextStyle(color: ColorsManager.blue),
                   ),
                   verticalSpace(15),
                   Row(
@@ -47,7 +47,7 @@ class _PlaceOrderButtonState extends State<PlaceOrderButton> {
                       TextButton(
                         style: TextButton.styleFrom(
                           foregroundColor: Colors.black,
-                          backgroundColor: ColorsgManger.lightBlue,
+                          backgroundColor: ColorsManager.lightBlue,
                           disabledForegroundColor:
                               Colors.grey.withOpacity(0.38),
                         ),
@@ -60,7 +60,7 @@ class _PlaceOrderButtonState extends State<PlaceOrderButton> {
                       TextButton(
                         style: TextButton.styleFrom(
                           foregroundColor: Colors.white,
-                          backgroundColor: ColorsgManger.blue,
+                          backgroundColor: ColorsManager.blue,
                           disabledForegroundColor:
                               Colors.grey.withOpacity(0.38),
                         ),
@@ -77,7 +77,7 @@ class _PlaceOrderButtonState extends State<PlaceOrderButton> {
             : const SizedBox.shrink(),
         CustomButton(
           text: S.of(context).order,
-          color: ColorsgManger.blue,
+          color: ColorsManager.blue,
           onTap: () async {
             if (context
                 .read<PlaceOrderCubit>()

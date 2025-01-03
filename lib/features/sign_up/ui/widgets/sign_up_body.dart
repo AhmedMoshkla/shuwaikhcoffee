@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/widgets/app_single_scffold.dart';
 import 'package:shuwaikh/features/sign_up/ui/widgets/have_account_text.dart';
 import 'package:shuwaikh/features/sign_up/ui/widgets/sign_up_bloc_listener.dart';
@@ -27,13 +28,13 @@ class SignupScreenBody extends StatelessWidget {
             verticalSpace(35),
             Text(
               S.of(context).Great_to_see_you,
-              style: AppTextStyles.font26Blue700Weight,
+              style: TextStyles.font26Blue700Weight,
             ),
             SizedBox(
               width: 220.w,
               child: Text(
                 S.of(context).lets_setup_account,
-                style: AppTextStyles.font16Black400Weight,
+                style: TextStyles.font16Black400Weight,
                 textAlign: TextAlign.center,
               ),
             ),

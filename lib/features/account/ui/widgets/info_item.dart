@@ -29,7 +29,7 @@ class InfoItem extends StatelessWidget {
             color: Colors.white,
             boxShadow: [
               BoxShadow(
-                color: ColorsgManger.lightBlue,
+                color: ColorsManager.lightBlue,
                 spreadRadius: 0,
                 blurRadius: 8,
               ),
@@ -37,7 +37,7 @@ class InfoItem extends StatelessWidget {
           ),
           child: Icon(
             icon,
-            color: ColorsgManger.blue,
+            color: ColorsManager.blue,
           ),
         ),
         horizontalSpace(10),
@@ -46,13 +46,13 @@ class InfoItem extends StatelessWidget {
           children: [
             Text(
               title,
-              style: AppTextStyles.font16Black400Weight,
+              style: TextStyles.font16Black400Weight,
             ),
             SizedBox(
               width: 200.w,
               child: Text(
                 data ?? '',
-                style: AppTextStyles.font16Black700Weight,
+                style: TextStyles.font16Black700Weight,
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,
               ),

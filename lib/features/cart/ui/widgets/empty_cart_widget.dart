@@ -24,7 +24,7 @@ class EmptyCartWidget extends StatelessWidget {
           height: 195.h,
           width: 335.w,
           decoration: BoxDecoration(
-            color: ColorsgManger.lightBlue,
+            color: ColorsManager.lightBlue,
             borderRadius: BorderRadius.circular(10.r),
           ),
           child: CustomErrMessageWidget(
@@ -34,8 +34,8 @@ class EmptyCartWidget extends StatelessWidget {
         verticalSpace(50),
         CustomButton(
           text: S.of(context).add_items_to_cart,
-          color: ColorsgManger.blue,
-          textStyle: AppTextStyles.font20White700Weight,
+          color: ColorsManager.blue,
+          textStyle: TextStyles.font20White700Weight,
           onTap: () => context.read<ChangePageCubit>().changePage(2),
         ),
         verticalSpace(100),

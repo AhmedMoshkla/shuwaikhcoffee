@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shuwaikh/core/helpers/custom_snack_bar.dart';
+import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/helpers/spacing.dart';
 import 'package:shuwaikh/core/widgets/app_text_field.dart';
 import 'package:shuwaikh/features/checkout/logic/place_order_cubit/place_order_cubit.dart';
@@ -38,7 +39,7 @@ class _OrderTotalAndDiscountSectionState
       children: [
         Text(
           S.of(context).order_total,
-          style: AppTextStyles.font26Blue700Weight,
+          style: TextStyles.font26Blue700Weight,
         ),
         verticalSpace(20),
         OrderTotalWidget(
@@ -60,7 +61,7 @@ class _OrderTotalAndDiscountSectionState
         verticalSpace(20),
         Text(
           S.of(context).discount,
-          style: AppTextStyles.font26Blue700Weight,
+          style: TextStyles.font26Blue700Weight,
         ),
         verticalSpace(10),
         Row(
@@ -79,7 +80,7 @@ class _OrderTotalAndDiscountSectionState
             horizontalSpace(8),
             ElevatedButton(
               style: const ButtonStyle(
-                backgroundColor: WidgetStatePropertyAll(ColorsgManger.blue),
+                backgroundColor: WidgetStatePropertyAll(ColorsManager.blue),
               ),
               onPressed: () {
                 context.read<CheckCouponCubit>().checkCoupon(
@@ -111,7 +112,7 @@ class _OrderTotalAndDiscountSectionState
                 context: context,
                 builder: (context) => const Center(
                   child: CircularProgressIndicator(
-                    color: ColorsgManger.blue,
+                    color: ColorsManager.blue,
                   ),
                 ),
               );
@@ -141,11 +142,11 @@ class OrderTotalWidget extends StatelessWidget {
           children: [
             Text(
               title,
-              style: AppTextStyles.font16Black500Weight,
+              style: TextStyles.font16Black500Weight,
             ),
             Text(
               price,
-              style: AppTextStyles.font16Black500Weight,
+              style: TextStyles.font16Black500Weight,
             ),
           ],
         ),

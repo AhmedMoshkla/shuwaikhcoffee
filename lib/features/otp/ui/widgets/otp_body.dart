@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/helpers/spacing.dart';
 import 'package:shuwaikh/core/routing/routes.dart';
 import 'package:shuwaikh/core/theming/colors.dart';
@@ -30,7 +31,7 @@ class OtpScreenBody extends StatelessWidget {
             verticalSpace(35),
             Text(
               S.of(context).enter_otp,
-              style: AppTextStyles.font26Blue700Weight,
+              style: TextStyles.font26Blue700Weight,
               textAlign: TextAlign.center,
             ),
             verticalSpace(110),
@@ -48,11 +49,11 @@ class OtpScreenBody extends StatelessWidget {
                 fieldHeight: 64,
                 fieldWidth: 64,
                 borderWidth: 0.5,
-                activeColor: ColorsgManger.blue,
-                inactiveColor: ColorsgManger.grey,
+                activeColor: ColorsManager.blue,
+                inactiveColor: ColorsManager.grey,
                 inactiveFillColor: Colors.white,
-                activeFillColor: ColorsgManger.lightBlue,
-                selectedColor: ColorsgManger.blue,
+                activeFillColor: ColorsManager.lightBlue,
+                selectedColor: ColorsManager.blue,
                 selectedFillColor: Colors.white,
               ),
               animationDuration: const Duration(milliseconds: 300),
@@ -71,14 +72,14 @@ class OtpScreenBody extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 minimumSize: Size(331.w, 50.h),
-                backgroundColor: ColorsgManger.blue,
+                backgroundColor: ColorsManager.blue,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(50),
                 ),
               ),
               child: Text(
                 S.of(context).verify,
-                style: AppTextStyles.font26White500Weight,
+                style: TextStyles.font26White500Weight,
               ),
             ),
             verticalSpace(300),

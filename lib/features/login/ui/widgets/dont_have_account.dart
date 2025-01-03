@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/theming/styles.dart';
 
 import '../../../../core/routing/routes.dart';
@@ -18,11 +19,11 @@ class DontHaveAccont extends StatelessWidget {
         children: [
           Text(
             S.of(context).dont_have_account,
-            style: AppTextStyles.font14Black400Weight,
+            style: TextStyles.font14Black400Weight,
           ),
           Text(
             '  ${S.of(context).register}',
-            style: AppTextStyles.font14Blue400Weight,
+            style: TextStyles.font14Blue400Weight,
           )
         ],
       ),

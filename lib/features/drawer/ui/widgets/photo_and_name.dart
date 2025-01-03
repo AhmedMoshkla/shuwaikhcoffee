@@ -29,7 +29,7 @@ class _PhotoAndNameState extends State<PhotoAndName> {
       width: double.infinity,
       height: 203.h,
       decoration: BoxDecoration(
-        color: ColorsgManger.darkBlue,
+        color: ColorsManager.darkBlue,
         borderRadius: isArabic()
             ? BorderRadius.only(bottomLeft: Radius.circular(80.r))
             : BorderRadius.only(bottomRight: Radius.circular(80.r)),
@@ -81,7 +81,7 @@ class _PhotoAndNameState extends State<PhotoAndName> {
                 width: 130.w,
                 child: Text(
                   state.username.isNullOrEmpty() ? unknown : state.username!,
-                  style: AppTextStyles.font26White500Weight,
+                  style: TextStyles.font26White500Weight,
                   maxLines: 2,
                   overflow: TextOverflow.ellipsis,
                 ),

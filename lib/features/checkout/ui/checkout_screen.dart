@@ -37,12 +37,12 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: ColorsgManger.blue,
+        backgroundColor: ColorsManager.blue,
         iconTheme: const IconThemeData(color: Colors.white),
         centerTitle: true,
         title: Text(
           S.of(context).check_out,
-          style: AppTextStyles.font20White700Weight,
+          style: TextStyles.font20White700Weight,
         ),
       ),
       body: SingleChildScrollView(

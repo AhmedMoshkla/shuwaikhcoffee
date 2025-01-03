@@ -17,7 +17,7 @@ class ProductDetailsShimmerLoading extends StatelessWidget {
           children: [
             verticalSpace(80),
             Shimmer.fromColors(
-              baseColor: ColorsgManger.shimmerGrey,
+              baseColor: ColorsManager.shimmerGrey,
               highlightColor: Colors.white,
               child: Container(
                 height: 200.h,
@@ -50,7 +50,7 @@ class ProductDetailsShimmerLoading extends StatelessWidget {
                     children: [
                       verticalSpace(30),
                       Shimmer.fromColors(
-                        baseColor: ColorsgManger.shimmerGrey,
+                        baseColor: ColorsManager.shimmerGrey,
                         highlightColor: Colors.white,
                         child: Container(
                           height: 40.h,
@@ -60,7 +60,7 @@ class ProductDetailsShimmerLoading extends StatelessWidget {
                       ),
                       verticalSpace(15),
                       Shimmer.fromColors(
-                        baseColor: ColorsgManger.shimmerGrey,
+                        baseColor: ColorsManager.shimmerGrey,
                         highlightColor: Colors.white,
                         child: Container(
                           height: 25.h,
@@ -70,7 +70,7 @@ class ProductDetailsShimmerLoading extends StatelessWidget {
                       ),
                       verticalSpace(15),
                       Shimmer.fromColors(
-                        baseColor: ColorsgManger.shimmerGrey,
+                        baseColor: ColorsManager.shimmerGrey,
                         highlightColor: Colors.white,
                         child: Container(
                           height: 250.h,

@@ -33,7 +33,7 @@ class _ProductDetailsScreenBodyState extends State<ProductDetailsScreenBody> {
           return Stack(
             children: [
               Container(
-                color: ColorsgManger.blue,
+                color: ColorsManager.blue,
                 child: SafeArea(
                   child: CustomScrollView(
                     physics: const BouncingScrollPhysics(),

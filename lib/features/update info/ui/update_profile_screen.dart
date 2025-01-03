@@ -23,9 +23,9 @@ class UpdateProfileScreen extends StatelessWidget {
         centerTitle: true,
         title: Text(
           S.of(context).edit_profile,
-          style: AppTextStyles.font20White700Weight,
+          style: TextStyles.font20White700Weight,
         ),
-        backgroundColor: ColorsgManger.blue,
+        backgroundColor: ColorsManager.blue,
       ),
       body: SafeArea(
         child: Padding(
@@ -57,7 +57,7 @@ class UpdateProfileScreen extends StatelessWidget {
                 verticalSpace(50),
                 CustomButton(
                   text: S.of(context).update,
-                  color: ColorsgManger.blue,
+                  color: ColorsManager.blue,
                   onTap: () =>
                       context.read<UpdateProfileCubit>().updateProfile(),
                 ),

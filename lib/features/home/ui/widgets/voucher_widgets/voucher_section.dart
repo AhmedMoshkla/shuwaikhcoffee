@@ -21,7 +21,7 @@ class VoucherSection extends StatelessWidget {
       children: [
         Text(
           S.of(context).your_voucher,
-          style: AppTextStyles.font24MainBlue500Weight,
+          style: TextStyles.font24MainBlue500Weight,
         ),
         verticalSpace(18),
         BlocBuilder<GetCouponsCubit, GetCouponsState>(

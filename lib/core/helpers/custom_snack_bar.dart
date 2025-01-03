@@ -1,10 +1,11 @@
-// File: custom_snack_bar.dart
 import 'package:flutter/material.dart';
+import 'package:shuwaikh/core/theming/colors.dart';
 
-void customSnackBar(BuildContext context, String message, bool isError) {
-  final snackBar = SnackBar(
-    content: Text(message),
-    backgroundColor: isError ? Colors.red : Colors.green,
+void customSnackBar(context, String? text, bool isError) {
+  ScaffoldMessenger.of(context).showSnackBar(
+    SnackBar(
+      backgroundColor: isError ? Colors.red : ColorsManager.blue,
+      content: Text(text ?? ''),
+    ),
   );
-  ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }

@@ -11,7 +11,7 @@ class ProductDetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorsgManger.blue,
+      backgroundColor: ColorsManager.blue,
       body: BlocProvider(
         create: (context) => CalcTotalCubit(),
         child: ProductDetailsScreenBody(

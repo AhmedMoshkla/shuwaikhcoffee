@@ -15,7 +15,7 @@ class AppAuthButton extends StatelessWidget {
       children: [
         Text(
           text,
-          style: AppTextStyles.font30Black400Weight,
+          style: TextStyles.font30Black400Weight,
         ),
         GestureDetector(
           onTap: onTap,
@@ -24,7 +24,7 @@ class AppAuthButton extends StatelessWidget {
             height: 50.h,
             decoration: const BoxDecoration(
               shape: BoxShape.circle,
-              color: ColorsgManger.blue,
+              color: ColorsManager.blue,
             ),
             child: const Icon(
               Icons.arrow_forward_ios,

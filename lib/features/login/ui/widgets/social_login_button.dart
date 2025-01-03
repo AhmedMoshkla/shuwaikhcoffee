@@ -28,7 +28,7 @@ class SocialLoginButton extends StatelessWidget {
           borderRadius: BorderRadius.circular(50.r),
           boxShadow: const [
             BoxShadow(
-              color: ColorsgManger.lightBlue,
+              color: ColorsManager.lightBlue,
               spreadRadius: 0.5,
               blurRadius: 3,
               offset: Offset(0, 5), // changes position of shadow
@@ -45,7 +45,7 @@ class SocialLoginButton extends StatelessWidget {
             ),
             Text(
               '${S.of(context).login_with} $text',
-              style: AppTextStyles.font16Black400Weight,
+              style: TextStyles.font16Black400Weight,
             ),
             const Icon(Icons.arrow_forward)
           ],

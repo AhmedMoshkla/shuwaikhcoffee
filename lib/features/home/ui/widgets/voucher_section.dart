@@ -22,7 +22,7 @@ class VoucherSection extends StatelessWidget {
               'Your Voucher',
               style: TextStyles.font24MainBlue500Weight.copyWith(
                 decoration: TextDecoration.underline,
-                decorationColor: ColorsManager.mainBlue,
+                decorationColor: ColorsManager.blue,
               ),
             ),
             InkWell(
@@ -31,7 +31,7 @@ class VoucherSection extends StatelessWidget {
                 height: 28.h,
                 width: 60.w,
                 decoration: BoxDecoration(
-                  color: ColorsManager.mainBlue,
+                  color: ColorsManager.blue,
                   borderRadius: BorderRadius.circular(50),
                 ),
                 child: Center(

@@ -21,7 +21,7 @@ class AppScaffold extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: double.infinity,
-      color: ColorsgManger.blue,
+      color: ColorsManager.blue,
       child: SafeArea(
         child: CustomScrollView(
           physics: const BouncingScrollPhysics(),

@@ -34,7 +34,7 @@ class CategoriesShimmerLoading extends StatelessWidget {
               Row(
                 children: [
                   Shimmer.fromColors(
-                    baseColor: ColorsgManger.shimmerGrey,
+                    baseColor: ColorsManager.shimmerGrey,
                     highlightColor: Colors.white,
                     child: Container(
                       height: 80.h,
@@ -47,7 +47,7 @@ class CategoriesShimmerLoading extends StatelessWidget {
                   ),
                   horizontalSpace(10),
                   Shimmer.fromColors(
-                    baseColor: ColorsgManger.shimmerGrey,
+                    baseColor: ColorsManager.shimmerGrey,
                     highlightColor: Colors.white,
                     child: Container(
                       height: 20.h,

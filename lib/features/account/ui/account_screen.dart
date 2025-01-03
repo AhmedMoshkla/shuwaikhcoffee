@@ -37,12 +37,12 @@ class _AccountScreenState extends State<AccountScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: ColorsgManger.blue,
+        backgroundColor: ColorsManager.blue,
         iconTheme: const IconThemeData(color: Colors.white),
         centerTitle: true,
         title: Text(
           S.of(context).account,
-          style: AppTextStyles.font20White700Weight,
+          style: TextStyles.font20White700Weight,
         ),
       ),
       body: SafeArea(
@@ -78,7 +78,7 @@ class _AccountScreenState extends State<AccountScreen> {
                                     shape: BoxShape.circle,
                                     border: Border.all(
                                       width: 2.w,
-                                      color: ColorsgManger.blue,
+                                      color: ColorsManager.blue,
                                     ),
                                     image: DecorationImage(
                                       image: imageProvider,
@@ -91,7 +91,7 @@ class _AccountScreenState extends State<AccountScreen> {
                       verticalSpace(20),
                       Text(
                         state.userData!.username ?? unknown,
-                        style: AppTextStyles.font24Black700Weight,
+                        style: TextStyles.font24Black700Weight,
                       ),
                       verticalSpace(20),
                       const Divider(),

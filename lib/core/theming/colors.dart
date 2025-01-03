@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class ColorsgManger {
+class ColorsManager {
   // Gray
   static const Color grey = Color(0xff9D9D9D);
   static Color shimmerGrey = Colors.grey.shade300;

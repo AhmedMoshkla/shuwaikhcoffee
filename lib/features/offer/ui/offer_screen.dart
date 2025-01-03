@@ -31,7 +31,7 @@ class _OfferScreenState extends State<OfferScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        iconTheme: const IconThemeData(color: ColorsgManger.blue),
+        iconTheme: const IconThemeData(color: ColorsManager.blue),
         elevation: 0,
         backgroundColor: Colors.white,
       ),
@@ -49,18 +49,18 @@ class _OfferScreenState extends State<OfferScreen> {
                   verticalSpace(30),
                   Text(
                     state.offerDetailsResponse.data!.title ?? '',
-                    style: AppTextStyles.font24Black700Weight,
+                    style: TextStyles.font24Black700Weight,
                   ),
                   Text.rich(
                     TextSpan(
                       children: [
                         TextSpan(
                           text: '${S.of(context).price} ',
-                          style: AppTextStyles.font20Black500Weight,
+                          style: TextStyles.font20Black500Weight,
                         ),
                         TextSpan(
                           text: 'KD${state.offerDetailsResponse.data!.price}',
-                          style: AppTextStyles.font26Blue700Weight,
+                          style: TextStyles.font26Blue700Weight,
                         ),
                       ],
                     ),
@@ -69,7 +69,7 @@ class _OfferScreenState extends State<OfferScreen> {
                   Text(
                     AppRegex.removeHtmlTags(
                         state.offerDetailsResponse.data!.description ?? ''),
-                    style: AppTextStyles.font13Black500Weight,
+                    style: TextStyles.font13Black500Weight,
                     maxLines: 13,
                     overflow: TextOverflow.ellipsis,
                   ),
@@ -79,11 +79,11 @@ class _OfferScreenState extends State<OfferScreen> {
                       children: [
                         TextSpan(
                           text: '${S.of(context).expired}: ',
-                          style: AppTextStyles.font14Black400Weight,
+                          style: TextStyles.font14Black400Weight,
                         ),
                         TextSpan(
                           text: state.offerDetailsResponse.data!.endData ?? '',
-                          style: AppTextStyles.font16Blue400Weight,
+                          style: TextStyles.font16Blue400Weight,
                         ),
                       ],
                     ),

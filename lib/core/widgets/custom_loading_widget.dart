@@ -13,7 +13,7 @@ class CustomLoadingWidget extends StatelessWidget {
       height: 115.h,
       child: const Center(
         child: CircularProgressIndicator(
-          color: ColorsgManger.blue,
+          color: ColorsManager.blue,
         ),
       ),
     );

@@ -27,7 +27,7 @@ class _ProductsCategoriesSectionState extends State<ProductsCategoriesSection> {
       children: [
         Text(
           S.of(context).all_categories,
-          style: AppTextStyles.font24MainBlue500Weight,
+          style: TextStyles.font24MainBlue500Weight,
         ),
         verticalSpace(10),
         const ProductsCategoriesListView(),

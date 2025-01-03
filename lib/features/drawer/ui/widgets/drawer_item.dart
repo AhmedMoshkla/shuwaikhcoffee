@@ -28,7 +28,7 @@ class DrawerItem extends StatelessWidget {
             horizontalSpace(15),
             Text(
               title,
-              style: AppTextStyles.font20Black500Weight,
+              style: TextStyles.font20Black500Weight,
             ),
           ],
         ),

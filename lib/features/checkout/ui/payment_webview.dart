@@ -23,9 +23,9 @@ class _PaymentWebViewState extends State<PaymentWebView> {
         centerTitle: true,
         title: Text(
           S.of(context).check_out,
-          style: AppTextStyles.font20White700Weight,
+          style: TextStyles.font20White700Weight,
         ),
-        backgroundColor: ColorsgManger.blue,
+        backgroundColor: ColorsManager.blue,
       ),
       body: WebViewWidget(controller: widget.webViewController),
     );

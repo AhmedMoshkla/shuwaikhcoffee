@@ -12,7 +12,7 @@ class ProductImageShimmerLoading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Shimmer.fromColors(
-      baseColor: ColorsgManger.shimmerGrey,
+      baseColor: ColorsManager.shimmerGrey,
       highlightColor: Colors.white,
       child: Container(
         width: 110.w,

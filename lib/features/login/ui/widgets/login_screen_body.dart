@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shuwaikh/core/helpers/assets_path.dart';
+import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/theming/styles.dart';
 import 'package:shuwaikh/features/login/logic/login_with_social_cubit/login_with_socail_cubit.dart';
 import 'package:shuwaikh/features/login/ui/widgets/login_bloc_listener.dart';
@@ -32,11 +33,11 @@ class LoginScreenBody extends StatelessWidget {
             verticalSpace(35),
             Text(
               S.of(context).lets_sign_in,
-              style: AppTextStyles.font26Blue700Weight,
+              style: TextStyles.font26Blue700Weight,
             ),
             Text(
               S.of(context).welcome_back,
-              style: AppTextStyles.font16Black400Weight,
+              style: TextStyles.font16Black400Weight,
             ),
             verticalSpace(50),
             const UsernameAndPassword(),

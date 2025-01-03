@@ -13,10 +13,10 @@ class ProfileTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      cursorColor: ColorsgManger.blue,
+      cursorColor: ColorsManager.blue,
       decoration: InputDecoration(
         labelText: lableText,
-        labelStyle: AppTextStyles.font16Gray400Weight,
+        labelStyle: TextStyles.font16Gray400Weight,
         contentPadding: const EdgeInsets.symmetric(vertical: 15),
         focusedBorder: const UnderlineInputBorder(
           borderSide: BorderSide(color: Colors.grey),

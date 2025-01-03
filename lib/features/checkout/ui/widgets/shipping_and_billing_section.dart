@@ -45,7 +45,7 @@ class _ShippingAndBillingDetailsSectionState
             : Row(
                 children: [
                   Checkbox(
-                    activeColor: ColorsgManger.blue,
+                    activeColor: ColorsManager.blue,
                     value: useSavedDetails,
                     onChanged: (check) {
                       setState(() {

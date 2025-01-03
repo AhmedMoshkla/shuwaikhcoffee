@@ -47,7 +47,7 @@ class _UpdatePhotoWidgetState extends State<UpdatePhotoWidget> {
                             shape: BoxShape.circle,
                             border: Border.all(
                               width: 2.w,
-                              color: ColorsgManger.blue,
+                              color: ColorsManager.blue,
                             ),
                             image: DecorationImage(
                               image: imageProvider,
@@ -64,7 +64,7 @@ class _UpdatePhotoWidgetState extends State<UpdatePhotoWidget> {
                         shape: BoxShape.circle,
                         border: Border.all(
                           width: 2,
-                          color: ColorsgManger.blue,
+                          color: ColorsManager.blue,
                         ),
                       ),
                     )
@@ -75,7 +75,7 @@ class _UpdatePhotoWidgetState extends State<UpdatePhotoWidget> {
                     shape: BoxShape.circle,
                     border: Border.all(
                       width: 2.w,
-                      color: ColorsgManger.blue,
+                      color: ColorsManager.blue,
                     ),
                     image: DecorationImage(
                       fit: BoxFit.fill,
@@ -88,7 +88,7 @@ class _UpdatePhotoWidgetState extends State<UpdatePhotoWidget> {
               _pickImageFromGallery();
             },
             child: CircleAvatar(
-              backgroundColor: ColorsgManger.blue,
+              backgroundColor: ColorsManager.blue,
               radius: 25.r,
               child: const Icon(
                 Icons.edit_outlined,

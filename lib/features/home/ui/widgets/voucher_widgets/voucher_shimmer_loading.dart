@@ -18,7 +18,7 @@ class VoucherShimmerLoading extends StatelessWidget {
         return Padding(
           padding: EdgeInsets.only(bottom: 10.h),
           child: Shimmer.fromColors(
-            baseColor: ColorsgManger.shimmerGrey,
+            baseColor: ColorsManager.shimmerGrey,
             highlightColor: Colors.white,
             child: Container(
               width: 335.w,

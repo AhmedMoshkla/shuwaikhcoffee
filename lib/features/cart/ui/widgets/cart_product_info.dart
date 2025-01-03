@@ -40,7 +40,7 @@ class _CartProductInfoState extends State<CartProductInfo> {
           children: [
             Text(
               widget.cartItem!.title ?? unknown,
-              style: AppTextStyles.font18Black700Weight,
+              style: TextStyles.font18Black700Weight,
             ),
             Padding(
               padding: isArabic()

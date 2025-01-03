@@ -15,13 +15,13 @@ class ProfileButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: const ButtonStyle(
-        backgroundColor: WidgetStatePropertyAll(ColorsgManger.blue),
+        backgroundColor: WidgetStatePropertyAll(ColorsManager.blue),
       ),
       onPressed: onPressed,
       child: Center(
         child: Text(
           title,
-          style: AppTextStyles.font20White700Weight,
+          style: TextStyles.font20White700Weight,
         ),
       ),
     );

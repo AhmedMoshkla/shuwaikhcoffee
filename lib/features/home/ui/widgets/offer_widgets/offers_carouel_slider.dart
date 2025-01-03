@@ -72,8 +72,8 @@ class _CategoriesListViewState extends State<OffersCarouelSlider> {
           activeIndex: activeIndex,
           count: widget.offers.length,
           effect: const SwapEffect(
-            dotColor: ColorsgManger.lightBlue,
-            activeDotColor: ColorsgManger.darkBlue,
+            dotColor: ColorsManager.lightBlue,
+            activeDotColor: ColorsManager.darkBlue,
           ),
         ),
       ],

@@ -25,7 +25,7 @@ class _OffersSectionState extends State<OffersSection> {
       children: [
         Text(
           S.of(context).your_offers,
-          style: AppTextStyles.font24MainBlue500Weight,
+          style: TextStyles.font24MainBlue500Weight,
         ),
         verticalSpace(15),
         BlocBuilder<GetOffersCubit, GetOffersState>(

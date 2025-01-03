@@ -17,11 +17,11 @@ class MyOrdersScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: ColorsgManger.blue,
+        backgroundColor: ColorsManager.blue,
         iconTheme: const IconThemeData(color: Colors.white),
         title: Text(
           S.of(context).my_orders,
-          style: AppTextStyles.font20White700Weight,
+          style: TextStyles.font20White700Weight,
         ),
         centerTitle: true,
       ),
@@ -42,7 +42,7 @@ class MyOrdersScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(15),
                       boxShadow: const [
                         BoxShadow(
-                          color: ColorsgManger.lightBlue,
+                          color: ColorsManager.lightBlue,
                           spreadRadius: 0,
                           blurRadius: 8,
                         ),
@@ -74,11 +74,11 @@ class MyOrdersScreen extends StatelessWidget {
                               children: [
                                 TextSpan(
                                   text: '${S.of(context).order_total}:  ',
-                                  style: AppTextStyles.font16Black700Weight,
+                                  style: TextStyles.font16Black700Weight,
                                 ),
                                 TextSpan(
                                   text: 'KD${state.orders![index].total!}',
-                                  style: AppTextStyles.font18Blue500Weight,
+                                  style: TextStyles.font18Blue500Weight,
                                 ),
                               ],
                             ),
@@ -113,11 +113,11 @@ class OrderInfo extends StatelessWidget {
         children: [
           TextSpan(
             text: '$title:  ',
-            style: AppTextStyles.font16Black700Weight,
+            style: TextStyles.font16Black700Weight,
           ),
           TextSpan(
             text: subtitle,
-            style: AppTextStyles.font14Blue400Weight,
+            style: TextStyles.font14Blue400Weight,
           ),
         ],
       ),
