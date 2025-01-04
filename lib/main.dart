@@ -3,7 +3,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:shuwaikh/core/helpers/extensions.dart';
 import 'package:shuwaikh/core/routing/app_router.dart';
 import 'package:shuwaikh/shuwaikh_app.dart';
-
 import 'core/di/dependency_injection.dart';
 import 'core/helpers/constants.dart';
 import 'core/helpers/shared_pref_helper.dart';
@@ -18,7 +17,6 @@ void main() async {
       appRouter: AppRouter(),
     ),
   );
-
 }
 
 checkIfLoggedInUser() async {

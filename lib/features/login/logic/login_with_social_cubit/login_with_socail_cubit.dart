@@ -4,9 +4,7 @@ import 'package:shuwaikh/core/helpers/login_with_socail_service.dart';
 import 'package:shuwaikh/core/networking/failure.dart';
 import 'package:shuwaikh/features/login/data/models/login_with_socail_request_body.dart';
 import 'package:shuwaikh/features/login/data/repos/login_with_socail_repo.dart';
-
 import '../../data/models/login_response.dart';
-
 part 'login_with_socail_state.dart';
 
 class LoginWithSocailCubit extends Cubit<LoginWithSocailState> {
